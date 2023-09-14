@@ -1,0 +1,1215 @@
+  <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Archive - Car Dealer</title>
+    <!-- Bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <!-- font -->
+
+     <!--Place these in the <head> section of your HTML-->
+      <link rel="icon" type="image/png" href="images/fav-icon/favicon48x48.webp" sizes="16x16">
+      <link rel="icon" type="image/png" href="images/fav-icon/favicon48x48.webp" sizes="32x32">
+      <link rel="icon" type="image/png" href="images/fav-icon/favicon48x48.webp" sizes="96x96">
+      <!--Now you should have a nifty little image next to your site's title!-->
+    
+    <!-- Fontawsome file -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- My css File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+
+<!-- Start NavBar -->
+<div class="navbar-main">
+  <div class="container">
+    <div id="navbar">    
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="navbar-header">
+                  <svg class="ham hamRotate ham1 navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                  </svg>
+                    
+                  <a class="navbar-brand" href="#"><div class="brand-logo img-responsive"></div></a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                       
+                      <li class="dropdown">
+                        <a href="CraDealer.html">HOME</a> 
+                      </li>
+                      
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES<b class="caret"></b></a> 
+                          
+                            <ul class="dropdown-menu">
+                                
+                              
+                                <li class=""><a href="About.html">ABOUT</a>
+                        
+                                </li>
+                                <li class=""><a href="Services.html">SERVICE</a>
+                        
+                                </li>
+                                <li><a href="PrivacyAndPolicy.html">PRIVACY POLICY</a></li>
+                                
+                                
+                                
+                                <li><a href="ConditionsAndTerms.html">TERMS AND CONDITIONS</a></li>
+
+                                <li class=""><a href="Contact.html">CONTACT</a>
+                    
+                                </li>   
+                                <li class=""><a href="Team.html">TEAM</a>
+                    
+                                </li>   
+                                <li><a href="Error_404.html">404</a></li>
+                                <li><a href="Testimonials.html">TESTIMONIALS</a></li>
+
+                                
+
+                                <li><a href="CommingSoon.html">COMING SOON</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle active" data-toggle="dropdown">CARS<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a href="Cars1.html">CARS1</a></li>
+                                <li><a href="Cars2.html">CARS2</a></li>
+                                <li class="active2"><a href="Cars3.html">CARS3</a></li>
+                                <li><a href="Cars5.html">CARS5</a></li>
+                                
+                                
+                                                       
+                            </ul>
+                        </li>
+
+                        <li class=""><a href="Cars Details.html">CAR DETAILS</a>
+                            
+                        </li>
+
+                        <li class="">
+                          <a href="Blog.html">BLOG</a> 
+                          
+                        </li>
+
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">SHOP<b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              
+                              <li><a href="ShopListing.html">SHOP LISTING</a></li>
+                              <li><a href="Cart.html">CART</a></li>
+                              <li><a href="Account.html">MY ACCOUNT</a></li>
+                              
+                              
+                                                     
+                          </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"><span>0</span></i></a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="#">NO PRODUCT IN THE CART</a></li>
+                                                  
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                      <ul class="dropdown-menu">
+                        <li style="padding: 10px 8px;"> <input type="search" name="" class="form-control" id="" style="width: 320px; height: 44px; border-radius: 0;" placeholder="Search"></li>
+                      </ul>
+                  </li>
+                      
+                      <li><a href="" class="main-btn">Add Car</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+    </div>
+  </div>
+</div>
+
+<!-- End NavBar -->
+        <!-- Start Header -->
+        <header class="cars-header car-filter-header">
+      
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-6 float-right">
+                <div class="title">
+                  <h1>CARS</h1>
+                </div>
+              </div>
+              <div class="col-xs-6 pag-float">
+                <div class="head-pag">
+                  <ul>
+                    <li></li>
+                    
+                    <li>  </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      
+      
+       </header>
+      
+        <!-- End Header -->
+    
+
+
+
+<!-- Start Pagination Section -->
+
+<section class="pag">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="control">
+          <h4>cars search</h4>
+          <div class="line"></div>
+
+          <div class="search">
+            <input type="search" id= "pgs cars search" class="form-control search-form placeholder ui-autocomplete-input" value name="s" placeholder="Search..." autocomplete="off">
+
+            <button class="search-button" id="pgs_cars_search_btn"value="Search" type="submit"><i class="fa fa-search"></i></button>
+
+            
+          </div>
+
+          <div class="f-price">
+            <h4>FILTER BY PRICE</h4>
+            <div class="line"></div>
+
+            <!-- Start Range Slider -->
+            
+
+                  <a href="" class="main-btn">filter</a>  
+          </div>
+            <!-- close range-slider div -->
+
+            <div class="cars-filter">
+              <h4>CARS FILTERS</h4>
+              <div class="line"></div>
+              <h5>51 Vehicles Matching</h5>
+
+              
+
+              <div class="listing-sort">
+                <div class="sort-filters">
+
+                  <div class="box">
+                
+                    <select class="wide">
+                      <option data-display="Year">Year</option>
+                      <option value="1">1998</option>
+                      <option value="2">2002</option>
+                      <option value="3">2004</option>
+                      <option value="4" >2007</option>
+                      <option value="5" >2008</option>
+                      <option value="6" >2009</option>
+                      <option value="7" >2010</option>
+                      <option value="8" >2011</option>
+                      <option value="9" >2012</option>
+                      <option value="10" >2013</option>
+                      <option value="11" >2014</option>
+                      <option value="12" >2015</option>
+                      <option value="13" >2016</option>
+                      <option value="14" >2017</option>
+                    </select>
+                  </div>
+                  <div class="box">
+                
+                    <select class="wide">
+                      <option data-display="Make">Make</option>
+                      <option value="1">Audi</option>
+                      <option value="2">Bentley</option>
+                      <option value="3">BMW</option>
+                      <option value="4" >Bugatti</option>
+                      <option value="5" >Cadillac</option>
+                      <option value="6" >Chevrolet</option>
+                      <option value="7" >Ferrari</option>
+                      <option value="8" >Ford</option>
+                      <option value="9" >Land Rover</option>
+                      <option value="10" >Lexus</option>
+                      <option value="11" >Mclaren</option>
+                      <option value="12" >Mercedes-Benz</option>
+                      <option value="13" >Niassan</option>
+                      <option value="14" >Porsche</option>
+                      <option value="15" >Toyota</option>
+                      <option value="16" >Volkswagen</option>
+                    </select>
+                  </div>
+    
+                  <div class="box">
+                    
+                    <select class="wide">
+                      <option data-display="Model">Model</option>
+                      <option value="1">570GT</option>
+                      <option value="2">650S</option>
+                      <option value="3">991 Turbo Cabriolet</option>
+                      <option value="4" >570GT</option>
+                      <option value="5" >650S</option>
+                      <option value="6" >650S</option>
+                      <option value="7" >570GT</option>
+                      <option value="8" >650S</option>
+                      <option value="9" >570GT</option>
+                      <option value="10" >650S</option>
+                      <option value="11" >570GT</option>
+                      <option value="12" >570GT</option>
+                      <option value="13" >570GT</option>
+                      <option value="14" >650S</option>
+                      <option value="15" >650S</option>
+                      <option value="16" >991 Turbo Cabriolet</option>
+                    </select>
+                  </div>
+                  
+                  <div class="box">
+                    
+                    <select class="wide">
+                      <option data-display="Body Style">Body Style</option>
+                      <option value="1">570GT</option>
+                      <option value="2">650S</option>
+                      <option value="3">991 Turbo Cabriolet</option>
+                      <option value="4" >570GT</option>
+                      <option value="5" >650S</option>
+                      <option value="6" >650S</option>
+                      <option value="7" >570GT</option>
+                      <option value="8" >650S</option>
+                      <option value="9" >570GT</option>
+                      <option value="10" >650S</option>
+                      <option value="11" >570GT</option>
+                      <option value="12" >570GT</option>
+                      <option value="13" >570GT</option>
+                      <option value="14" >650S</option>
+                      <option value="15" >650S</option>
+                      <option value="16" >991 Turbo Cabriolet</option>
+                    </select>
+                  </div>
+                  
+                  <div class="box">
+                    
+                    <select class="wide">
+                      <option data-display="Condition">Condition</option>
+                      <option value="1">Certified</option>
+                      <option value="2">New</option>
+                      <option value="3">Used</option>
+                      
+                    </select>
+                  </div>
+                  
+                  <div class="box">
+                    
+                    <select class="wide">
+                      <option data-display="Mileage">Mileage</option>
+                      <option value="1">≤ 10000</option>
+                      <option value="2">≤ 20000</option>
+                      <option value="3">≤ 30000</option>
+                      <option value="4" >≤ 40000</option>
+                      <option value="5" >≤ 50000</option>
+                      <option value="6" >≤ 60000</option>
+                      <option value="7" >≤ 70000</option>
+                      <option value="8" >≤ 80000</option>
+                      <option value="9" >≤ 90000</option>
+                      
+                    </select>
+                  </div>
+                  
+                  <div class="box">
+                    
+                    <select class="nice-select select-sort-filters cd-select-box wide">
+                      <option data-display="Transmission">Transmission</option>
+                      <option value="1">5-speed Manual</option>
+                      <option value="2">6-speed Automatic</option>
+                      <option value="3">6-speed Automatic With Auto-Shift</option>
+                      <option value="4" >6-speed Manual</option>
+                      <option value="5" >7-speed Automatic</option>
+                      <option value="6" >8-speed Automatic</option>
+                      <option value="7" >6-speed Automatic w/OD and auto-manual</option>
+                      <option value="8" >Automanual</option>
+                      <option value="9" >Automatic</option>
+                      
+                    </select>
+                  </div>
+    
+                  <div class="box">
+                    
+                    <select class="nice-select select-sort-filters cd-select-box wide">
+                      <option data-display="Drivetrain">Drivetrain</option>
+                      <option value="1">4WD</option>
+                      <option value="2">AWD</option>
+                      <option value="3">FWD</option>
+                      <option value="4">RWD</option>
+                      
+                      
+                    </select>
+                  </div>
+    
+                  <div class="box">
+                    
+                    <select class="nice-select select-sort-filters cd-select-box wide">
+                      <option data-display="Engine">Engine</option>
+                      <option value="1">5-speed Manual</option>
+                      <option value="2">6-speed Automatic</option>
+                      <option value="3">6-speed Automatic With Auto-Shift</option>
+                      <option value="4" >6-speed Manual</option>
+                      <option value="5" >7-speed Automatic</option>
+                      <option value="6" >8-speed Automatic</option>
+                      <option value="7" >6-speed Automatic w/OD and auto-manual</option>
+                      <option value="8" >Automanual</option>
+                      <option value="9" >Automatic</option>
+                      
+                    </select>
+                  </div>
+    
+                  <div class="box">
+                    
+                    <select class="nice-select select-sort-filters cd-select-box wide">
+                      <option data-display="Fuel Economy">Fuel Economy</option>
+                      <option value="1">5-speed Manual</option>
+                      <option value="2">6-speed Automatic</option>
+                      <option value="3">6-speed Automatic With Auto-Shift</option>
+                      <option value="4" >6-speed Manual</option>
+                      <option value="5" >7-speed Automatic</option>
+                      <option value="6" >8-speed Automatic</option>
+                      <option value="7" >6-speed Automatic w/OD and auto-manual</option>
+                      <option value="8" >Automanual</option>
+                      <option value="9" >Automatic</option>
+                      
+                    </select>
+                  </div>
+    
+                  <div class="box">
+                    
+                    <select class="nice-select select-sort-filters cd-select-box wide">
+                      <option data-display="Exterior Color">Exterior Color</option>
+                      <option value="1">5-speed Manual</option>
+                      <option value="2">6-speed Automatic</option>
+                      <option value="3">6-speed Automatic With Auto-Shift</option>
+                      <option value="4" >6-speed Manual</option>
+                      <option value="5" >7-speed Automatic</option>
+                      <option value="6" >8-speed Automatic</option>
+                      <option value="7" >6-speed Automatic w/OD and auto-manual</option>
+                      <option value="8" >Automanual</option>
+                      <option value="9" >Automatic</option>
+                      
+                    </select>
+                  </div>
+
+                  <a href="" id="reset-sorts" class="main-btn">Reset</a>
+                  
+                </div>
+              </div>
+              
+             
+                
+            
+            
+            </div>
+
+            <div class="financial">
+              <div class="head">
+                <h4>FINANCING CALCULATOR</h4>
+                <div class="line"></div>
+              </div>
+
+              <div class="payment">
+                <div class="form-group">
+                  <label for="loan-amount">Loan Amount*</label>
+                  <input type="text" name="loan-amount" id="loan-amount" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="loan-amount">DOWN PAYMENT*</label>
+                  <input type="text" name="loan-amount" id="loan-amount" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="loan-amount">INTEREST RATE (%)*</label>
+                  <input type="text" name="loan-amount" id="loan-amount" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="loan-amount">PERIOD (MONTH)*</label>
+                  <input type="text" name="loan-amount" id="loan-amount" class="form-control">
+                </div>
+
+                
+                  <div class="form-group">
+                    <label for="loan-amount">Payment</label>
+                    <div class="btns">
+                      <a href="" class="main-btn">estimate payment</a>
+                    <a href="" class="main-btn">clear</a>
+                    </div>
+                  </div>
+                 
+                
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        
+            <div class="content col-lg-9 col-md-9 col-sm-12">
+              <div class="top-filter-box">
+                <div class="left-side">
+                  <ul class="top-list">
+                    
+                      <li><a href="">Home</a></li>
+                      <li>/</li>
+                      <li>Cars</li>
+                    
+                  </ul>
+                </div>
+
+                <div class="right-side">
+                  <div class="selectors">
+                    <div class="box">
+                      <select>
+                        <option value="1">12</option>
+                        <option value="2">24</option>
+                        <option value="3" >36</option>
+                        <option value="4">48</option>
+                      </select>
+                    </div>
+                    <div class="box">
+                      <select>
+                        
+                        <option value="1">Sort By Default</option>
+                        <option value="2">Sort By Name</option>
+                        <option value="3">Sort By Price</option>
+                        <option value="4">Sort By Date</option>
+                        <option value="5">Sort By Year</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="icon">
+                    <a href=""><i class="fa fa-arrow-down"></i></a>
+                  </div>
+
+                  <div class="grid-icons">
+                    <a href="#" class="active-red"><i class="fa fa-th"></i></a>
+                    <a href="CarsHorizental.html"><i class="fa fa-bars"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="all-cars">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                    <div id="slide-down" class="parent-panel">
+                      <div class="back-img">
+                        <picture class="img-responsive">
+                          <img src="images/Check-sec/3eca27c26a_1024-265x190.jpg.webp" alt="">
+                        </picture>
+                      </div>
+                      <div class="child-panel">
+                        <a href=""><i class="fa fa-link"></i></a>
+                        <a href=""><i class="fa fa-exchange" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-arrows-alt"></i></a>
+                      </div>
+                      <div class="before-div">
+                        <ul>
+                          <li>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                          2013</li>
+                          <li>
+                            <i class="glyphicon glyphicon-align-right"></i>
+                            2014
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <div class="car-contet">
+                        <a href="">2011 Lexus RX</a>
+                      
+                        <div class="animate">
+                          <div class="line1"></div>
+                          <div class="line2"></div>
+                        </div>
+            
+                        <span>$19,900.00</span>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          
+        <div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-2">
+          <div class="pagin">
+            <nav aria-label="Page navigation">
+              <ul class="pagination">
+                <li class="previous"><a href="Cars2.html"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                <li><a href="Cars1.html">1</a></li>
+                <li><a href="Cars2.html">2</a></li>
+                <li class="active"><a href="Cars3.html">3</a></li>
+                <li><a href="" class="disabled">...</a></li>
+                <li><a href="Cars5.html">5</a></li>
+                <li class="next"><a href="Cars5.html"><span aria-hidden="true">&rarr;</span> Next</a></li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      
+  
+</section>
+
+
+<!-- End Pagination Section -->
+
+
+
+   <!-- Start Footer -->
+   <footer class="bottom-footer" style="  background: url(images/footer/page-header-bg.jpg) no-repeat center center;">
+    
+    <div class="container">
+      <div class="social-icons">
+        <a href="" class="facebook">
+          
+          <span>facebook</span>
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="" class="twitter">
+          
+          <span>twitter</span>
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="" class="dribbble">
+          
+          <span>dribbble</span>
+          <i class="fa fa-dribbble"></i>
+        </a>
+        <a href="" class="vimeo">
+          
+          <span>vimeo</span>
+          <i class="fa fa-vimeo-square"></i>
+        </a>
+        <a href="" class="pinterest">
+          
+          <span>pinterest</span>
+          <i class="fa fa-pinterest"></i>
+        </a>
+        <a href="" class="behance">
+          
+          <span>behance</span>
+          <i class="fa fa-behance" aria-hidden="true"></i>
+        </a>
+        <a href="" class="linkedin">
+          
+          <span>linkedin</span>
+          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-lg-3 col-sm-6 col-md-3  col-xs-12 parent footer-div">
+            <div class="links">
+              <p>We provide everything you need to build an amazing dealership website developed especially for car sellers dealers or auto motor retailers.</p>
+              <ul>
+                <li>
+                  <i class="fa fa-map-marker"></i>
+                  <span>220E Front St. Burlington NC 27215</span>
+                </li>
+                <li>
+                  <i class="fa fa-phone"></i>
+                  <span>(007) 123 456 7890</span>
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i>
+                  <span>support@example.com</span>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-md-3  col-xs-12 footer-div">
+            <div class="links1">
+              <h6>Useful Links</h6>
+            <div class="line"></div>
+            <ul>
+              <li><i class="fa fa-angle-double-right"></i><a href="">Change Oil and Filter</a></li>
+              <li><i class="fa fa-angle-double-right"></i><a href="">Brake Pads Replacement</a></li>
+              <li><i class="fa fa-angle-double-right"></i><a href="">Timing Belt Replacement</a></li>
+              <li><i class="fa fa-angle-double-right"></i><a href="">Pre-purchase Car Inspection</a></li>
+              <li><i class="fa fa-angle-double-right"></i><a href="">Starter Replacement</a></li>
+             
+            </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-sm-6 col-md-3  col-xs-12 footer-div">
+            <div class="recent-posts">
+              <h6>RECENT POSTS</h6>
+            <div class="line"></div>
+            <!-- Start First Post -->
+            <div class="recent-post">
+              <div class="recent-post-img">
+                <img src="images/footer/blog-single-img1-50x50.jpg.webp" alt="">
+              </div>
+
+              <div class="recent-post-info">
+                <a href="">Buy your dream car</a>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <span>May 17, 2021</span>
+              </div>
+            </div>
+            <!-- End First Post -->
+            <!-- Start Seconed Post -->
+            <div class="recent-post">
+              <div class="recent-post-img">
+                <img src="images/footer/blog-single-img2-50x50.jpg.webp" alt="">
+              </div>
+
+              <div class="recent-post-info">
+                <a href="">Buy your dream car</a>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <span>May 17, 2021</span>
+              </div>
+            </div>
+            <!-- End Seconed Post -->
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-sm-6 col-md-3  col-xs-12 footer-div">
+           <div class="sub">
+             <h6>SUBSCRIBE OUR NEWSLETTER</h6>
+             <div class="line"></div>
+             <p>Keep up on our always evolving products features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+             <input type="email" name="" class="form-control" id="" placeholder="Enter your Email">
+             <a href="" class="main-btn">Subscribe</a>
+           </div>
+
+          </div>
+          
+        </div>
+
+      
+        
+        <!-- Start 2 dives -->
+          
+            <div class="col-lg-12">
+              <div class="info-footer">
+                <div class="col-lg-6 col-xs-12">
+                  <div class="info">
+                    <div class="left-info">
+                      <h6>ARE YOU LOOKING FOR A CAR?</h6>
+                      <div class="line"></div>
+                      <p>Search Our Inventory With Thousands Of Cars And More Cars Are Adding On Daily Basis</p>
+                    </div>
+                    <a href="" class="main-btn">Read more</a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-xs-12 ">
+                  <div class="info">
+                    <div class="left-info">
+                      <h6>DO YOU WANT TO SELL A CAR?</h6>
+                      <div class="line"></div>
+                      <p>Search Our Inventory With Thousands Of Cars And More Cars Are Adding On Daily Basis</p>
+                    </div>
+                    <a href="" class="main-btn">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+          </div>
+        <!-- End 2 dives -->
+
+        
+      </div>
+       
+
+        
+      
+    
+    
+      <div class="copy-right">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xs-12 left">
+              
+                <span>©Copyright 2022 </span>
+                <a href="">Car Dealer</a>
+              
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12 right">
+              
+                <ul>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Terms and Conditions</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</footer>
+<!-- End Footer -->
+    
+ <!-- Car animation -->
+  <div class="carAnimate">
+    <img src="images/fixedCar/car.png" alt="">
+    <div class="carAnimate2">
+      <img src="images/fixedCar/car-focus.png" alt="">
+      
+    </div>
+    
+  </div>
+
+
+
+
+  
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.nice-select.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+</body>
+</html>
