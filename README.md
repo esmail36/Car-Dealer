@@ -1,6 +1,8 @@
 # 🚗 Car Dealer - Frontend Website
 
+
 A clean and modern frontend-only car dealership website built with **HTML**, **CSS**, and **JavaScript**. This responsive and elegant interface simulates an online platform for browsing and showcasing car listings.
+
 
 ---
 
@@ -8,7 +10,6 @@ A clean and modern frontend-only car dealership website built with **HTML**, **C
 
 - 📱 Responsive layout for mobile, tablet, and desktop
 - 🏎️ Modern and clean UI design
-- 🔍 Search/filter bar 
 - 🖼️ Car image gallery and details section
 - 💡 Easily customizable and extendable for dynamic integration
 
@@ -22,6 +23,7 @@ A clean and modern frontend-only car dealership website built with **HTML**, **C
 - Font Awesome (for icons)  
 - Google Fonts 
 
+
 ---
 
 ## 🚀 Getting Started
@@ -31,6 +33,7 @@ A clean and modern frontend-only car dealership website built with **HTML**, **C
 ```bash
 git clone https://github.com/esmail36/Car-Dealer.git
 cd Car-Dealer
+
 
 
 2. **Open the Project**
@@ -60,4 +63,6 @@ You can open index.html directly in your browser or use a local development serv
 └── README.md
 
 ![App Screenshot](./images/website-screenshot.png)
+
+=======
 
